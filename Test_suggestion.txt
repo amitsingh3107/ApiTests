@@ -1,0 +1,55 @@
+
+
+Test Scenarios:
+
+1) Security:
+    user will not able to serach before login.
+    Wrong Login crednetial also not works.
+    Only Valid user(correct credential) will able to search 
+
+2) Functional:
+    Positive:
+    User able to search all existing user
+    Seach list has: first name, last Name, Carrer, Phone no  : for all users
+    Indivial user can be seached using correct mobile no
+
+    Negative:
+       Invalid mobile no can not be serached (not existed in system)
+       Seach invalid mobile No(mobile no fomat incorrect ex# 9 digit , start with 5 etc)
+
+
+
+
+
+Bugs/Suggestion:
+
+1) Authenticate API:
+    Steps:
+       Hit Api with only username or password
+
+     Actual Result :  401 status code
+
+     Expected ?suggestion : Must be 400 status code becuase request body is not proper , and with this response code will able to debug easily.
+
+2) /api/v1/users/{phone}  API:
+
+    Step:
+       Hit api with with incorrect no like 9 digit
+
+       Expected : 400 status code or some response body which shows correct error code like incorrect mobile no
+
+       Actual: 200 status code and empty response body
+ 3)  /api/v1/users/{phone}  API:
+     Steps:
+      try to hit api with any alphanumeric phone no
+
+      Expected: must be correct status code / error response
+
+      Actual : 200 status code and empty response
+
+4) http://13.126.80.194:8080/api/v1/users
+
+     No Validation on Content-Type           
+
+
+
