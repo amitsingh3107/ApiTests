@@ -1,0 +1,24 @@
+{"searchUserWithMobile": {
+  "cases": [
+    {
+      "userName": "rupeek",
+      "password": "password",
+      "seachNo": "9972939567",
+      "expectedStatusCode": 200,
+      "outPutSize": 1
+    },
+    {
+      "userName": "rupeek",
+      "password": "password",
+      "seachNo": "9972939511",
+      "expectedStatusCode": 200
+
+    },
+    {
+      "userName": "rupeek1",
+      "password": "password",
+      "seachNo": "9972939567",
+      "expectedStatusCode": 401
+    }
+  ]
+}}

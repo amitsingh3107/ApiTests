@@ -1,0 +1,28 @@
+{
+  "searchAllUsers": {
+    "cases": [
+      /* valid user */
+      {
+        "userName": "rupeek",
+        "password": "password",
+        "expectedStatusCode": 200,
+        "outPutSize": 3
+      },
+      /* Invalid user */
+      {
+        "userName": "password1",
+        "password": "password",
+        "expectedStatusCode": 401,
+        "outPutSize": 0
+      },
+      /* empty user */
+      {
+        "userName": null,
+        "password": null,
+       "expectedStatusCode": 401,
+        "outPutSize": 0
+      }
+    ]
+
+  }
+}

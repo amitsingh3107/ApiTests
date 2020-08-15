@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2dc98f89-0a9c-4322-8d0f-2c59b6b272f2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="Rerun Failed Tests" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1g8IQGzeGzs7kYw8QMtJg7vmmAR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/Amit.singh/java/java/ApiTests/src/test/resources/testNg.xml">
+    <configuration name="SeachUsersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.amit.tests.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.amit.tests.testcases" />
+      <option name="MAIN_CLASS_NAME" value="org.amit.tests.testcases.SeachUsersTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <envs>
+        <env name="baseUrl" value="http://13.126.80.194:8080" />
+      </envs>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeachUsersTest.seachAllUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.amit.tests.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.amit.tests.testcases" />
+      <option name="MAIN_CLASS_NAME" value="org.amit.tests.testcases.SeachUsersTest" />
+      <option name="METHOD_NAME" value="seachAllUserTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="2" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <envs>
+        <env name="baseUrl" value="http://13.126.80.194:8080" />
+      </envs>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeachUsersTest.seachSpecificUserTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.amit.tests.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.amit.tests.testcases" />
+      <option name="MAIN_CLASS_NAME" value="org.amit.tests.testcases.SeachUsersTest" />
+      <option name="METHOD_NAME" value="seachSpecificUserTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="1" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <envs>
+        <env name="baseUrl" value="http://13.126.80.194:8080" />
+      </envs>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeachUsersTest.seachSpecificUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.amit.tests.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.amit.tests.testcases" />
+      <option name="MAIN_CLASS_NAME" value="org.amit.tests.testcases.SeachUsersTest" />
+      <option name="METHOD_NAME" value="seachSpecificUserTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <envs>
+        <env name="baseUrl" value="http://13.126.80.194:8080" />
+      </envs>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/Amit.singh/java/java/ApiTests/src/test/resources/testNg.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTests" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testNg.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.SeachUsersTest.seachSpecificUserTest" />
+      <item itemvalue="TestNG.SeachUsersTest.seachSpecificUserTest (2)" />
+      <item itemvalue="TestNG.SeachUsersTest" />
+      <item itemvalue="TestNG.SeachUsersTest.seachAllUserTest" />
+      <item itemvalue="TestNG./Users/Amit.singh/java/java/ApiTests/src/test/resources/testNg.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/Amit.singh/java/java/ApiTests/src/test/resources/testNg.xml" />
+        <item itemvalue="TestNG.SeachUsersTest" />
+        <item itemvalue="TestNG.SeachUsersTest.seachAllUserTest" />
+        <item itemvalue="TestNG.SeachUsersTest.seachSpecificUserTest" />
+        <item itemvalue="TestNG.SeachUsersTest.seachSpecificUserTest (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2dc98f89-0a9c-4322-8d0f-2c59b6b272f2" name="Default Changelist" comment="" />
+      <created>1597489774871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597489774871</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="351" y="37" key="#[Local]_SeachUsersTest.seachAllUserTest" timestamp="1597506337919">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="351" y="37" key="#[Local]_SeachUsersTest.seachAllUserTest/0.23.1440.797@0.23.1440.797" timestamp="1597506337919" />
+    <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597509984190">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1597509984190" />
+    <state x="388" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597496801168">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="388" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.797@0.23.1440.797" timestamp="1597496801168" />
+    <state x="458" y="205" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1597501360877">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="458" y="205" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.797@0.23.1440.797" timestamp="1597501360877" />
+    <state x="342" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1597501345709">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="342" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.797@0.23.1440.797" timestamp="1597501345709" />
+    <state x="486" y="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1597501365384">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="486" y="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.797@0.23.1440.797" timestamp="1597501365384" />
+    <state x="890" y="150" width="415" height="579" key="#xdebugger.evaluate" timestamp="1597510801867">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="890" y="150" width="415" height="579" key="#xdebugger.evaluate/0.23.1440.797@0.23.1440.797" timestamp="1597510801867" />
+    <state x="474" y="193" key="EnvironmentVariablesDialog" timestamp="1597509982706">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="474" y="193" key="EnvironmentVariablesDialog/0.23.1440.797@0.23.1440.797" timestamp="1597509982706" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1597511391037">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1597511391037" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1597511391036">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1597511391036" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1597511391035">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1597511391035" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1597511391037">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1597511391037" />
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom" timestamp="1597510970775">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1597510970775" />
+    <state width="1398" height="253" key="GridCell.Tab.1.center" timestamp="1597510970773">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1597510970773" />
+    <state width="1398" height="253" key="GridCell.Tab.1.left" timestamp="1597510970773">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1597510970773" />
+    <state width="1398" height="253" key="GridCell.Tab.1.right" timestamp="1597510970774">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1597510970774" />
+    <state x="258" y="83" key="Maven.ArtifactSearchDialog" timestamp="1597497206069">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="258" y="83" key="Maven.ArtifactSearchDialog/0.23.1440.797@0.23.1440.797" timestamp="1597497206069" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/amit/base/Setups.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/amit/tests/testcases/SeachUsersTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/amit/tests/testcases/SeachUsersTest.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

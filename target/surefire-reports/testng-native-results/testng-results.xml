@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="5200" started-at="2020-08-15T17:10:12Z" finished-at="2020-08-15T17:10:17Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="5200" started-at="2020-08-15T17:10:12Z" finished-at="2020-08-15T17:10:17Z">
+      <class name="org.amit.tests.testcases.SeachUsersTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.amit.tests.testcases.SeachUsersTest@22f71333]" name="setup" is-config="true" duration-ms="447" started-at="2020-08-15T22:40:12Z" finished-at="2020-08-15T22:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="seachAllUserTest(com.google.gson.JsonObject)[pri:0, instance:org.amit.tests.testcases.SeachUsersTest@22f71333]" name="seachAllUserTest" duration-ms="2770" started-at="2020-08-15T22:40:12Z" data-provider="seachAllUser" finished-at="2020-08-15T22:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"userName":"rupeek","password":"password","expectedStatusCode":200,"outPutSize":3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seachAllUserTest -->
+        <test-method status="PASS" signature="seachAllUserTest(com.google.gson.JsonObject)[pri:0, instance:org.amit.tests.testcases.SeachUsersTest@22f71333]" name="seachAllUserTest" duration-ms="369" started-at="2020-08-15T22:40:15Z" data-provider="seachAllUser" finished-at="2020-08-15T22:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"userName":"password1","password":"password","expectedStatusCode":401,"outPutSize":0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seachAllUserTest -->
+        <test-method status="PASS" signature="seachAllUserTest(com.google.gson.JsonObject)[pri:0, instance:org.amit.tests.testcases.SeachUsersTest@22f71333]" name="seachAllUserTest" duration-ms="329" started-at="2020-08-15T22:40:15Z" data-provider="seachAllUser" finished-at="2020-08-15T22:40:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"userName":null,"password":null,"expectedStatusCode":401,"outPutSize":0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seachAllUserTest -->
+        <test-method status="PASS" signature="seachSpecificUserTest(com.google.gson.JsonObject)[pri:0, instance:org.amit.tests.testcases.SeachUsersTest@22f71333]" name="seachSpecificUserTest" duration-ms="399" started-at="2020-08-15T22:40:16Z" data-provider="seachUser" finished-at="2020-08-15T22:40:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"userName":"rupeek","password":"password","seachNo":"9972939567","expectedStatusCode":200,"outPutSize":1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seachSpecificUserTest -->
+        <test-method status="PASS" signature="seachSpecificUserTest(com.google.gson.JsonObject)[pri:0, instance:org.amit.tests.testcases.SeachUsersTest@22f71333]" name="seachSpecificUserTest" duration-ms="340" started-at="2020-08-15T22:40:16Z" data-provider="seachUser" finished-at="2020-08-15T22:40:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"userName":"rupeek","password":"password","seachNo":"9972939511","expectedStatusCode":200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seachSpecificUserTest -->
+        <test-method status="PASS" signature="seachSpecificUserTest(com.google.gson.JsonObject)[pri:0, instance:org.amit.tests.testcases.SeachUsersTest@22f71333]" name="seachSpecificUserTest" duration-ms="523" started-at="2020-08-15T22:40:16Z" data-provider="seachUser" finished-at="2020-08-15T22:40:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"userName":"rupeek1","password":"password","seachNo":"9972939567","expectedStatusCode":401}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seachSpecificUserTest -->
+      </class> <!-- org.amit.tests.testcases.SeachUsersTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
